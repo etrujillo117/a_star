@@ -40,17 +40,17 @@ class Spot:
 
     #Function that determines if spot is open
     def is_open(self):
-        return self.color == GREEN
+        return self.color == TURQUOISE
     
     def make_open(self):
-        self.color = GREEN
+        self.color = TURQUOISE
 
     #Function that determines if spot will no longer be looked at
     def is_closed(self):
-        return self.color == RED
+        return self.color == ORANGE
     
     def make_closed(self):
-        self.color = RED
+        self.color = ORANGE
 
     #Function that determines if spot is a barrier
     def is_barrier(self):
@@ -61,17 +61,17 @@ class Spot:
 
     #Function that determines if spot is start
     def is_start(self):
-        return self.color == ORANGE
+        return self.color == YELLOW
 
     def make_start(self):
-        self.color = ORANGE
+        self.color = YELLOW
     
     #Function that determines if spot is finish
     def is_end(self):
-        return self.color == BLUE
+        return self.color == GREEN
 
     def make_end(self):
-        self.color = BLUE
+        self.color = GREEN
 
     #Function thats highlights path
     def make_path(self):
