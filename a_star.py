@@ -6,7 +6,7 @@ import pygame
 import math
 from queue import PriorityQueue
 
-WIDTH = 900
+WIDTH = 1500
 WIN = pygame.display.set_mode((WIDTH, WIDTH))
 pygame.display.set_caption("Edgar's A* Pathfinder Algo")
 
@@ -75,7 +75,7 @@ class Spot:
 
     #Function thats highlights path
     def make_path(self):
-        self.color = TURQUOISE
+        self.color = PURPLE
 
     #Function that resets spot
     def reset(self):
